@@ -12,7 +12,7 @@ public class PodcastEpiosde extends ContentItem implements Downloadable {
     }
     @Override
     public String toString() {
-        return "1." + id + " 2." + title + " 3." + year + " 4." + durationMinutes +  " 5." + hostName;
+        return "id:" + id + " title:" + title + " year:" + year + " durationMinutes:" + durationMinutes +  " hostName:" + hostName;
     }
     public void download(){
         System.out.println("Downloading podcast hosted by Youtube");

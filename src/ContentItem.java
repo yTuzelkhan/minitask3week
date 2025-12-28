@@ -38,6 +38,6 @@ abstract class ContentItem {
     }
     public abstract double getLicenseCost(int currentYear);
     public String toString(){
-        return "1." + id + " 2." + title + " 3." + year + " 4." + durationMinutes;
+        return "id:" + id + " title:" + title + " year:" + year + " durationMinutes:" + durationMinutes;
     }
 }

@@ -12,7 +12,7 @@ public class VideoLecture extends ContentItem implements Downloadable {
     }
     @Override
     public String toString() {
-        return "1." + id + " 2." + title + " 3." + year + " 4." + durationMinutes +  " 5." + quality;
+        return "id:" + id + " title:" + title + " year:" + year + " durationMinutes:" + durationMinutes +  " quality:" + quality;
     }
     public void download(){
         System.out.println("Downloading video in 16K");
